@@ -1,0 +1,34 @@
+@keyframes move{
+  100%{ background-position:80% 0; } /* my texture isn't perfect */
+}
+@-webkit-keyframes move{
+  100%{ background-position:80% 0; } /* my texture isn't perfect */
+}
+.ball{ display:inline-block; width:100px; height:100px;	position:relative; perspective:800px; -webkit-perspective:800px; }
+	.ball div{ 
+		background:url('http://dropthebit.com/demos/assests/ball3.jpg') 0 0 no-repeat; 
+		background-size:auto 100%; 
+		box-shadow:-10px -30px 40px -20px inset, 10px 10px 10px rgba(255,255,255,.6) inset, 0 8px 10px -10px, 0 0 1px 1px #CCC inset; 
+		width:100%;	height:100%; 
+		overflow:hidden;	position:relative; 
+		border-radius:100%; 
+		-webkit-animation:.4s move infinite linear; 
+		animation:.4s move infinite linear;
+	}
+.ball::before{ 
+	content: "";
+	height: 25px;
+	width: 40px;
+	position: absolute;
+	left: 30px;
+	bottom: -13px;
+	background:#555;
+	border-radius:100%;
+	box-shadow: 0 0 50px 20px #000;
+	transform: rotateX(80deg);
+ -webkit-transform: rotateX(80deg);
+}
+
+/*--- PAGE RESET ---*/
+
+.ball{ vertical-align: middle; margin-left:140px;}

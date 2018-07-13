@@ -1,0 +1,139 @@
+.remember{
+    width: 150px;
+    float:left;
+}
+
+.forget{
+    width: 150px;
+    float:left;
+    margin: 5px 0 0 10px;
+}
+.authForm{
+    width: 450px;
+}
+.loginForm-extra{
+    height: 25px;
+}
+
+.indexLeftInfo{
+    width: 600px;
+    min-height: 200px;
+    float: left;
+}
+
+.indexLeftInfo-list-each{
+    padding: 20px;
+}
+
+.indexLeftInfo-header{
+    font-size: 24px;
+    font-weight: 400;
+    color: #61923B;
+    line-height: 33px;
+    margin: 0 0 10px 0;
+    margin: 30px 0 5px 0;
+}
+
+.indexLeftInfo-text{
+    text-align: justify;
+    font-family: Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+    line-height:18px;
+}
+
+.quickRegisterForm{
+    width: 370px;
+    float:right;
+    margin-top: 10px;
+}
+
+.form-outline{
+    border: 1px #ececec solid;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.form-header{
+    height: 13px;
+    padding: 5px;
+    background: #6E98C0;
+    font-weight: bold;
+    color: #fff;
+    font-size: 13px; 
+}
+
+.quickRegisterForm_info{
+    color: #61923B;
+    border-bottom: #61923B 1px solid;
+    padding-bottom: 6px;
+}
+
+
+.formlist__item-label,
+.formlist__item-input,
+.formlist__item-select {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-bottom: 9px;
+}
+
+.formlist__item-label {
+	width: 130px;
+	color: #000;
+	text-align: right;
+	white-space: nowrap;
+	font: 16px Arial, Verdana, sans-serif;
+}
+.formlist__item-label label {
+	margin-right: 6px;
+	vertical-align: middle;			
+}
+
+.formlist__item-input {
+	width: 170px;
+}
+
+.formlist__item-input input{
+	padding: 5px;
+}
+
+.formlist__item-submit{
+    margin-left: 167px;
+}
+
+.process{
+    margin-top:20px;
+    height: 80px;
+}
+.process-list li{
+    width: 140px;
+    float:left;
+    color: #727272;
+}
+
+.box-desc{
+    width: 140px;
+    height: 60px;
+    border: 1px solid #0077bf;
+}
+
+.stepnum{
+    float:left;
+    width: 26px;
+    height: 50px;
+    background: #0077bf;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0 0 14px;
+}
+.desc{
+    padding:3px;
+    width: 94px;
+    float:right;
+}
